@@ -21,8 +21,20 @@ function multiply(a, b) {
   return a * b;
 }
 
+/**
+ * Divides the first number by the second
+ * Returns null if dividing by zero
+ */
+function divide(a, b) {
+  if (b === 0) {
+    return null;
+  }
+  return a / b;
+}
+
 module.exports = {
   add,
   subtract,
   multiply,
+  divide
 };
