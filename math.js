@@ -18,7 +18,7 @@ function subtract(a, b) {
  * Multiplies two numbers
  */
 function multiply(a, b) {
-  return a * b;
+  return a * b; // Agregando comentario para ayudar a Jacob :)
 }
 
 /**
