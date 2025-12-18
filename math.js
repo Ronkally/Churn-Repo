@@ -4,7 +4,9 @@
  * Adds two numbers together
  */
 function add(a, b) {
-  return a + b;
+  let number1 = a;
+  let number2 = b;
+  return number1 + number2;
 }
 
 /**
@@ -32,9 +34,14 @@ function divide(a, b) {
   return a / b;
 }
 
+function power(base, exponent) {
+  return base ** exponent;
+}
+
 module.exports = {
   add,
   subtract,
   multiply,
-  divide
+  divide,
+  power
 };
